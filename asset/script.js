@@ -74,13 +74,21 @@ let replayOrNot = prompt(`
     1. ya
     2. tidak`)
 
-    if (replayOrNot == 1) {
-        startNewGame();
+    do {
+        startNewGame()
         replayOrNot = prompt(`
         apakah ingin bermain lagi ?
         1. ya
         2. tidak`)
-    } else {
-        alert('selamat, anda telah menyelesaikan game ini')
-    }
+    } while (replayOrNot == 1);
+
+    // if (replayOrNot == 1) {
+    //     startNewGame();
+    //     replayOrNot = prompt(`
+    //     apakah ingin bermain lagi ?
+    //     1. ya
+    //     2. tidak`)
+    // } else {
+    //     alert('selamat, anda telah menyelesaikan game ini')
+    // }
 
