@@ -69,18 +69,9 @@ SELAMAT BERMAIN =)`)
 
 startNewGame();
 
-let replayOrNot = prompt(`
-    apakah ingin bermain lagi ?
-    1. ya
-    2. tidak`)
-
     do {
         startNewGame()
-        replayOrNot = prompt(`
-        apakah ingin bermain lagi ?
-        1. ya
-        2. tidak`)
-    } while (replayOrNot == 1);
+    } while (confirm('apakah ingin bermain lagi ?') == true);
 
     // if (replayOrNot == 1) {
     //     startNewGame();
