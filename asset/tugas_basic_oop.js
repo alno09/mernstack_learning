@@ -40,7 +40,7 @@ class Table {
       element.innerHTML = table;
     }
   }
-  
+
   const table = new Table({
     columns: ["Nama", "Jenis", "Harga", "Stok"],
     data: [
@@ -51,6 +51,8 @@ class Table {
       ["Warm Sunset", "Mocktail", 15000, 12]
     ]
   });
-  const app = document.getElementById("app");
-  table.render(app);
+  // const app = document.getElementById("app");
+  // table.render(app);
+
+  export default Table;
   
