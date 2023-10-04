@@ -1,4 +1,7 @@
-import Table from "./tugas_module_system";
+export {teksBawah}
 
-const app = document.getElementById("app");
-  table.render(app);
+function teksBawah() {
+
+  console.log('hahaha');
+  
+}

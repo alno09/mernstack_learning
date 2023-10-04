@@ -51,8 +51,9 @@ class Table {
       ["Warm Sunset", "Mocktail", 15000, 12]
     ]
   });
-  // const app = document.getElementById("app");
-  // table.render(app);
 
-  export default Table;
+  import {teksBawah} from "./tugas_module_system";
+  const app = document.getElementById("app");
+  table.render(app);
+  teksBawah();
   
