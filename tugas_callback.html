@@ -11,8 +11,8 @@
 <body>
     <h1 class="text-center">List Pelanggan</h1>
     <br>
-    <table id="myTable" border="1" class="container table table-dark">
-        <thead>
+    <table id="myTable" border="1" class="container table table-secondary table-hover">
+        <thead class="table-active">
             <tr>
                 <th>ID</th>
                 <th>Name</th>
@@ -26,6 +26,9 @@
             <!-- Baris data akan ditambahkan dengan JavaScript -->
         </tbody>
     </table>
+    <div class="container col-sm-2 float-end">
+        <button id="myButton" class="btn btn-primary">Simpan Data</button>
+    </div>
     <script src="asset/tugas_callback.js"></script>
 </body>
 </html>

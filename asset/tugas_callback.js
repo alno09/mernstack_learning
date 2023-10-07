@@ -29,3 +29,7 @@ fetch(url)
     .catch(error => {
         console.error('Terjadi kesalahan:', error);
     });
+
+    document.getElementById('myButton').addEventListener('click', function() {
+        alert('Data telah tersimpan')
+    })
