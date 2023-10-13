@@ -1,14 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Portal Berita</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Metropolitan - Tugas promise</title>
 </head>
 <body>
-    <h1>Portal Berita</h1>
-    <input type="text" id="searchInput" placeholder="Cari berita...">
-    <button id="searchButton">Cari</button>
-    <div id="news"></div>
+    <div class="container">
+        <!-- <h1 class="text-center">Portal Berita</h1>
+        <nav class="navbar navbar-light bg-light justify-content-between">
+            <a class="navbar-brand">Navbar</a>
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </nav> -->
 
-    <script src="script.js"></script>
+        <h1 class="text-center text-info">Metropolitan - Breaking News</h1>
+        <input type="text" id="searchInput" placeholder="Cari berita..." class="form-control mr-sm-2">
+        <button id="searchButton" class="btn btn-outline-success my-2 my-sm-0">Cari</button>
+
+            <div id="news" class="row mx-auto">
+                <script src="asset/tugas_promise.js"></script>
+            </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
 </html>
