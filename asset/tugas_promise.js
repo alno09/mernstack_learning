@@ -67,10 +67,13 @@ async function fetchNews(query) {
     }
 }
 
-// Event listener untuk tombol pencarian
-searchButton.addEventListener('click', () => {
+// Event listener untuk input pencarian (live search)
+searchInput.addEventListener('input', () => {
     const query = searchInput.value;
     if (query) {
         fetchNews(query);
+    } else {
+        // Jika input kosong, tampilkan berita acak
+        fetchRandomNews();
     }
 });
